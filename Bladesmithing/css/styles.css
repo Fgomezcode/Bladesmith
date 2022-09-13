@@ -1,0 +1,295 @@
+body {
+  background-color: #1b2430;
+  color: white;
+}
+
+#PageInfo {
+  font-size: auto;
+  text-align: center;
+  word-break: keep-all;
+  width: auto;
+}
+
+#PageInfo h1 {
+  font-size: auto;
+  text-align: center;
+  text-decoration: overline underline;
+  color: white;
+}
+
+/*Display Styling*/
+.DisplayDiv {
+  border-radius: 10px;
+  background-color: #5c5470;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 20px;
+  width: auto;
+}
+
+/*Div Styling*/
+.RoundDiv {
+  color: black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 2%;
+  
+  margin: 10px;
+  animation: dropDown 0.75s ease-in-out forwards 1;
+}
+
+.RoundPrompt {
+  font-size: auto;
+}
+
+#roundParams {
+  font-size: auto;
+  list-style: none;
+  word-break: keep-all; 
+}
+
+#roundOneExtras {
+  font-size: auto;
+  list-style: none;
+  justify-content: center;
+  word-break: keep-all;
+}
+
+#ResetDiv {
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin: 10px;
+}
+
+  /*Button Styling*/
+  .actionButton {
+    font-size: auto;
+    border-style: solid;
+    font-weight: bolder;
+    height: 50px;
+    width: 100px;
+    margin: auto;
+    border-radius: 15px;
+  }
+  
+  #resetButton {
+    background-color: red;
+    height: 25px;
+    width: 100px;
+  }
+  #skipButton {
+    background-color: gold;
+    height: 25px;
+    width: 100px;
+  }
+
+.timerText {
+  text-align: center;
+  color: red;
+  font-size: 70px;
+  text-decoration: none;
+}
+
+@keyframes expand {
+  0% {
+    transform: scale(0, 0);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes dropDown {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+/*GLOSSARY ----------------------------------------------*/
+
+#GlossaryTable {
+  border-radius: 10px;
+  border-style: solid black;
+  margin: auto;
+}
+
+.GlossaryCell {
+  background-color: #dbd8e3;
+  word-wrap: normal;
+  padding: 5%;
+  border: 2px solid;
+}
+.GlossaryCell:hover {
+  background-color: lightgray;
+}
+
+/*GLOSSARY LINKS AND HYPERLINKS*/
+a {
+  color: black;
+  font-size: auto;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: black;
+}
+
+/*----------------------------------------------------*/
+h1,
+h2 {
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+}
+
+/*------------------ CHANGING RESOLUTION ----------------------------------------------*/
+/*=====================================================================================*/
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: #1b2430;
+    color: white;
+  }
+  
+  #PageInfo {
+    font-size: auto;
+    text-align: center;
+    word-break: keep-all;
+    
+    width: 90%;
+  }
+  
+  #PageInfo h1 {
+    font-size: auto;
+    text-align: center;
+    text-decoration: overline underline;
+    color: white;
+  }
+  
+  /*Display Styling*/
+  .DisplayDiv {
+    border-radius: 10px;
+    background-color: #5c5470;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5%;
+    width: 90%;
+  }
+  
+  /*Div Styling*/
+  .RoundDiv {
+    color: black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 2%;
+   
+    animation: dropDown 0.75s ease-in-out forwards 1;
+  }
+  
+  .RoundPrompt {
+    font-size: auto;
+  }
+  
+  #roundParams {
+    font-size: auto;
+    list-style: none;
+    word-break: keep-all;
+  }
+  
+  #roundOneExtras {
+    font-size: auto;
+    list-style: none;
+    justify-content: center;
+    word-break: keep-all;
+  }
+  
+  #ResetDiv {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  /*Button Styling*/
+  .actionButton {
+    font-size: auto;
+    border-style: solid;
+    font-weight: bolder;
+    height: 50px;
+    width: 100px;
+    margin: auto;
+    border-radius: 15px;
+  }
+  
+  #resetButton {
+    background-color: red;
+    height: 25px;
+    width: 100px;
+  }
+  #skipButton {
+    background-color: gold;
+    height: 25px;
+    width: 100px;
+  }
+  
+  .timerText {
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    text-decoration: none;
+  }
+
+/*GLOSSARY ----------------------------------------------*/
+
+#GlossaryTable {
+  border-radius: 10px;
+  border-style: solid black;
+  width: 10px;
+}
+
+.GlossaryCell {
+  background-color: #dbd8e3;
+  word-wrap: normal;
+  padding:0%;
+  border: 2px solid;
+}
+.GlossaryCell:hover {
+  background-color: lightgray;
+}
+
+/*GLOSSARY LINKS AND HYPERLINKS*/
+a {
+  color: black;
+  font-size: 10px;
+  font-weight: bolder;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: black;
+}
+
+/*----------------------------------------------------*/
+h1,
+h2 {
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+}
+
+}
